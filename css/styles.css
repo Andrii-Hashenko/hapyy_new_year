@@ -33,9 +33,14 @@ body {
   font-family: "Rubik Gemstones", sans-serif;
   display: flex;
   height: 100vh;
-  background: hsl(193 100% 5%);
+  background: rgb(8, 36, 43);
 }
-
+.container {
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+  padding: 0 15px;
+}
 * {
   margin: 0;
   padding: 0;
@@ -66,7 +71,6 @@ body {
   transform: translateY(110%);
   width: 400px;
   height: 70px;
- 
   margin-top: 340px;
   margin-left: auto;
   margin-right: auto;
