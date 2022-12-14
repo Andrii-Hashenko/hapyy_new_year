@@ -41,7 +41,6 @@ body {
   height: 100vw;
   padding-right: 15px;
   padding-left: 15px;
-  margin: auto;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -108,6 +107,7 @@ body {
 @media screen and (max-width: 479px) {
   .main__title {
     height: 50vw;
+    margin-top: 50%;
   }
 }
 @media screen and (min-width: 768px) {
